@@ -1,0 +1,89 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+  background-image: url("https://portal.dpu.edu.tr/app/views/index/assets/images/dpu-kapi.png"); 
+  background-color: #26272C;
+  background-repeat: no-repeat;
+  background-position: 50% 2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  /* background-color: #26272C; */
+}
+
+.joinInnerContainer {
+  width: 400px;
+  background-color: #1A1A1D;
+  height: 540px;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 10%;
+}
+
+.joinInput {
+  border-radius: 6px;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #c20b09;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.dpu-logo{
+  width: 100px;
+  height: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+    margin-top: 0;
+  }
+
+  #root {
+    background-size: 340px;
+  }
+
+}
+
+button:focus {
+  outline: 0;
+}

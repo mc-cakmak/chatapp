@@ -1,0 +1,53 @@
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #c20b09;
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  width: 100%;
+}
+
+.leftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: #828282;
+  width: 30px;
+  height: 20px;
+  background-color: #f3f3f3;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 70px -20px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 70px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 70px -20px rgba(0, 0, 0, 0.75);
+}
+
+.rightInnerContainer {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.onlineIcon {
+  margin-right: 5%;
+}
+
+h4 {
+  margin-left: 28px;
+  color: white;
+}
+
+.logo {
+  width: 46px;
+  height: 46px;
+  margin-left: 20px;
+  margin-top: 5px;
+
+  box-shadow: 10px 10px 23px -1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 10px 10px 23px -1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 23px -1px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
